@@ -35,8 +35,12 @@ A demo app is included with the Hover repo. Here are some screenshots of the dem
 Getting Started
 ---------------
 ### Subclass HoverMenuService
-To get started with Hover, create a subclass of `HoverMenuService` to host your Hover menu. The only method that you're required to override is `createHoverMenuAdapter()` which essentially returns the content of your Hover menu.
 
+HoverMenuService的子类
+
+
+To get started with Hover, create a subclass of `HoverMenuService` to host your Hover menu. The only method that you're required to override is `createHoverMenuAdapter()` which essentially returns the content of your Hover menu.
+开始Hover，创建一个HoverMenuService的子类以支持你的Hover的菜单，仅有的一个要重写的方法是createHoverMenuAdapter(),基本上可以用来返回你的Hover菜单的内容
 ```java
 public class MyHoverMenuService extends HoverMenuService {
 
@@ -50,7 +54,16 @@ public class MyHoverMenuService extends HoverMenuService {
 ```
 
 ### Implement A HoverMenuAdapter
+实现一个 HoverMenuAdapter
+
+HoverMenuAdapter 扮演者一个类似android标准的适配器。
+
+HoverMenuAdapter用来为每个tab提供一个view,这个view用于显示在你的菜单上，同时这个适配器也可以为每个tab提供相应的NavigatorContent
+
+
 A `HoverMenuAdapter` acts a lot like a standard Android `Adapter`. `HoverMenuAdapter`s provide a `View` for each tab that appears in your Hover menu. It also provides the corresponding `NavigatorContent` for each tab.
+
+HoverMenuAdapter
 
 ```java
 public class MyHoverMenuAdapter extends BaseHoverMenuAdapter {
