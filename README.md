@@ -2,6 +2,8 @@ Hover
 =====
 Hover is a floating menu implementation for Android.
 
+Hover 是android悬浮菜单的一种实现
+
 Goals
 -----
 The goals of Hover are to:
@@ -10,15 +12,21 @@ The goals of Hover are to:
 
 1. Provide common tools for Android developers to create their own floating menu.
 
+为开发者提供易用、无约束的悬浮菜单实现
+为开发者提供通用工具帮助他们创建自己的悬浮菜单
+
+
 Beta Notice
 -------
 Hover is still under heavy development. There is still a lot of code cleanup to do, so expect breaking API changes over time.
 
 That said, Hover should be in a usable state at this time.
 
+Hover 目前处于重度开发状态，仍然需要大量的代码工作，所以期望随着时间的推进打破API的束缚
 Demo Hover Menu
 ---------------
 A demo app is included with the Hover repo. Here are some screenshots of the demo in action.
+一个演示APP，包括Hover的源码，这是一些演示快照
 
 <img src="https://raw.githubusercontent.com/matthew-carroll/hover/gh-pages/images/screenrecords/hover-demo-screenrecord.gif" width="270" /> ![Demo Hover Menu - Launching](https://raw.githubusercontent.com/matthew-carroll/hover/gh-pages/images/screenshots/hover-demo-homescreen.png) ![Demo Hover Menu - Launching](https://raw.githubusercontent.com/matthew-carroll/hover/gh-pages/images/screenshots/hover-demo-menu-intro.png) 
 
